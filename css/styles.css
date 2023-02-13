@@ -1,0 +1,223 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color:lightgray;
+	font-family: 'PT Serif', serif;
+}
+.whole{
+	margin:0 auto;
+	background-color:white;
+	width:1150px;
+}
+.header{
+	display:flex;
+	padding: 20px 20px 0 20px;
+}
+.profile-pic img{
+	width:100px;
+	height:auto;
+}
+.side-box{
+	width:60%;
+	margin:0px 50px;
+ 
+}
+.nav-items ul{
+	list-style-type:none;
+	display:flex;
+	
+}
+.nav-items ul li{
+	display:inline;
+	padding: 10px 40px 10px 0px;
+	font-size: 18px;
+	
+}
+.nav-items ul li .active{
+	color:black;
+}
+
+.name h2{
+	border-bottom:1px solid grey;
+	padding: 10px 8px;
+}
+.nav-items a{
+	text-decoration:none;
+	color:gray;
+}
+.black-box{
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding: 40px 10px;
+}
+.black-box .transparent{
+	opacity:50%;
+	color:grey;
+}
+.black-box .big{
+	font-size: 30px;
+    font-weight: 600;
+	line-height: 60px;
+}
+.black-box .grey-font{
+	color:grey;
+	padding-bottom: 8px;
+	font-weight: 600;
+}
+.black-box button{
+	background-color:black;
+	border:1px solid white;
+	color:white;
+	padding: 8px 22px;
+}
+.divider{
+	
+	border-bottom:1px solid lightgrey;
+	margin:0 20px;
+}
+.box2{
+	padding: 30px 24px;
+	
+}
+.skill-flex{
+	display:flex;
+	justify-content:space-between;
+	width: 65%;
+	padding: 10px 0 0 30px;
+}
+.skill-flex img{
+	width: 25px;
+    height: 25px;
+}
+.skill-flex p{
+	font-size: 12px;
+	margin: 0 0 0 12px;	
+}
+.box3{
+	padding: 0 0 24px 0;
+}
+.box3 h2{
+	padding-left: 22px;
+}
+.skill-set{
+	display:flex;
+	margin: 0 30px;
+	color:gray;
+	padding: 12px 0 0 0
+}
+.skill-set p{
+	padding: 10px 96px 10px 0;
+}
+.edu-flex {
+	display:flex;
+	justify-content:space-between;
+	width: 65%;
+	padding: 10px 0 20px 30px;
+}
+.edu-flex img{
+	width: 30px;
+    height: 27px;
+}
+.edu-flex p{
+	font-size: 12px;
+	margin: 0 0 0 14px;	
+}
+.box4 h2{
+	padding-left: 20px;
+}
+.institution-flex{
+	display:flex;
+	justify-content:space-between;
+	line-height: 23px;
+}
+.institution{
+	border-left:3px solid lightgray;
+	margin: 0px 0 30px 20px;
+    padding: 0 0 0 10px;
+}
+.institution .year{
+	font-size: 12px;
+    opacity: 0.5;
+}
+.institution .college{
+	font-weight:bold;
+}
+.institution .deg{
+	
+}
+.institution .achievements{
+	color:gray;
+	font-size: 12px;
+}
+.percentage p{
+	text-align:center;
+	background-color:WhiteSmoke ;
+	padding: 32px;
+    margin-right:100px;
+}
+.project-flex{
+	display:flex;
+	justify-content:space-between;
+	width: 65%;
+	padding: 10px 0 20px 30px;
+}
+.project-flex img{
+	width: 30px;
+    height: 27px;
+}
+.project-flex p{
+	font-size: 12px;
+	margin: 0 0 0 14px;	
+}
+.box5{
+	padding: 0 0 20px 0;
+}
+.box5 h2{
+	padding-left: 20px;
+}
+.project{
+	margin: 0px 0 14px 20px;
+    border-left: 3px solid lightgray;
+    padding: 0 0 0 10px;
+}
+.project p{
+	color: gray;
+	font-size:14px;
+}
+.project .bold{
+	font-weight:bold;
+	color:black;
+	font-size: 18px;
+}
+.project .small{
+	font-size: 12px;
+}
+.box6 h2{
+	padding-left: 20px;
+}
+.box6 p{
+	font-size: 12px;
+	padding: 5px 0 0 22px;
+}
+.box6 .last{
+	font-size: 14px;
+	padding: 0 0 10px 20px;
+}
+.contact-flex{
+	display:flex;
+}
+
+.contact-flex a img{
+	width:26px;
+}
+.contact-flex a{
+	margin: 16px 20px 10px 20px;
+}
+.gray{
+	color:gray;
+}
